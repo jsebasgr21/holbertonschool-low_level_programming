@@ -4,7 +4,7 @@
  * This function prints the text inside puts
  *
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 
 #include <stdio.h>
