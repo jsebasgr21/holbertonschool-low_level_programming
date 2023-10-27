@@ -1,17 +1,14 @@
 /**
  * main - print the text in puts
  *
+ * This function prints the text "\"Programming is like building a multilingual puzzle"
+ * using the puts() function.
  *
- *
- *
- * return - end the process
+ * return: always 0 (success)
  */
 
 #include <stdio.h>
 
-/**
- * main - print the text in puts
- */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
