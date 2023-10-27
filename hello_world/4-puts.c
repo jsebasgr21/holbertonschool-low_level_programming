@@ -9,6 +9,9 @@
 
 #include <stdio.h>
 
+/**
+ * return - end the process
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
