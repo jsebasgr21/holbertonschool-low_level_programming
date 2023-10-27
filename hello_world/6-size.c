@@ -6,4 +6,5 @@ int main(void)
 	sizeof(int);
 	sizeof(long int);
 	sizeof(float);
+	return (0);
 }
