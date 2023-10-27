@@ -1,5 +1,6 @@
 /**
  * main - print the text in puts
+ * return - end the process
  */
 
 #include <stdio.h>
