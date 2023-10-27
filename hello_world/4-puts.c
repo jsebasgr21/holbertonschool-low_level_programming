@@ -1,8 +1,8 @@
 /**
  * main - print the text in puts
  *
- * This function prints the text "\"Programming is like building a multilingual puzzle"
- * using the puts() function.
+ * This function prints the text inside puts
+ * 
  *
  * return: always 0 (success)
  */
