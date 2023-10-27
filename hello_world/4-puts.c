@@ -1,5 +1,5 @@
 /**
- * Function_name(main) (print the text in puts)
+ * main - print the text in puts
  */
 
 #include <stdio.h>
