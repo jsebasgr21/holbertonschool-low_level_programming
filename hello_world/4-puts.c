@@ -1,6 +1,4 @@
 #!/bin/bash
-#include <betty.style.pl>
-#include <betty.doc.pl>
 
 int main(void)
 {
