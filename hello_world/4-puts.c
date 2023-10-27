@@ -1,6 +1,5 @@
 /*
- * Function_name(mai
- * Function_name(main)
+ * Function_name(main) (print the text \"Programing is like building a multilingual puzzle)
  **/
 
 #include <stdio.h>
