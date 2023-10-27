@@ -1,4 +1,4 @@
-/*
+/**
  * Function_name(main) (print the text \"Programing is like building a multilingual puzzle)
  */
 
