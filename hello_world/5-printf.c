@@ -1,5 +1,5 @@
 /**
- * printf - print the text
+ * main - Entry point of the program
  *
  *
  *
