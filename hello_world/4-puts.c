@@ -10,7 +10,7 @@
 #include <stdio.h>
 
 /**
- * return - end the process
+ * main - print the text in puts
  */
 int main(void)
 {
