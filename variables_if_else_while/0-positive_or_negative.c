@@ -3,7 +3,14 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - numero al azar negativo o positivo
+ *
+ *
+ * genera un numero al azar e imprime si ese numero
+ * es negativo o positivo
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
