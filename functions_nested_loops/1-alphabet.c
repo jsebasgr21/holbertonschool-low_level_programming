@@ -19,6 +19,6 @@ int print_alphabet(void)
 	for (abc = a; abc <= z; abc++)
 	{
 	printf(abc);
-	return (0);
 	}
+	return (0);
 }	
