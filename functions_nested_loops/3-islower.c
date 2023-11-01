@@ -4,14 +4,12 @@
  */
 int _islower(int c)
 {
-	int lower = 'c';
-
-	if (islower(lower))
+	if (c >= 'a' && c <= 'z')
 	{
-	printf("%d 1", lower);
+	return (1);
 	}
 	else
 	{
-	printf("%d 0", lower);
+	return (0);
 	}
 }
