@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - imprime los numeros del 0 al 9
- * 
- * 
- * 
- * 
+ *
+ *
+ *
+ *
  * Return: Always 0 (Succes)
 */
 
