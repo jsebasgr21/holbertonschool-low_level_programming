@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - del uno al diez 
+ * main - del uno al diez
  *
  *
  *
@@ -18,4 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-	
