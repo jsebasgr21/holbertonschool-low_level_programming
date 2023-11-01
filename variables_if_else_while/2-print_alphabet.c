@@ -2,9 +2,11 @@
 
 int main(void)
 {
-	int a;
-	for (a = 0; a <= 27; a++)
+	char abc;
+	for (abc = "a"; abc <= "z"; abc++)
 	{
-		putchar(a);
+		putchar(abc);
 	}
+	putchar("\n");
+	return (0);
 }
