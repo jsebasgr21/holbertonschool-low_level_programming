@@ -16,5 +16,5 @@ int main(void)
     {
         printf("%d", numeros);
     }
-    printf("\n")
+    printf("\n");
 }
