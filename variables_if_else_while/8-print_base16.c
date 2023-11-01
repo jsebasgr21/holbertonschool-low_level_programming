@@ -9,11 +9,14 @@
 */
 int main(void)
 {
-	int seis;
+	char seis;
 
-	for (seis = 0; seis <= 'f'; seis++)
+	for (seis = '0'; seis <= 'f'; seis++)
+	{
+	if ((seis >= '0' && seis <= '9') || (seis >= 'a' && seis <= 'f'))
 	{
 	putchar(seis);
+	}
 	}
 	putchar('\n');
 	return (0);
