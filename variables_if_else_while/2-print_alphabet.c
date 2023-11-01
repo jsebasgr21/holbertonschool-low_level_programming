@@ -6,6 +6,5 @@ int main(void)
 	for (a = 0; a <= 27; a++)
 	{
 		putchar(a);
-		return(0);
 	}
 }
