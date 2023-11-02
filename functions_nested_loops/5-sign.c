@@ -9,7 +9,6 @@ int print_sign(int n)
 	if (n > 0)
 	{
 	printf("+1");
-	putchar('\n');
 	return (1);
 	}
 	else if (n == 0)
