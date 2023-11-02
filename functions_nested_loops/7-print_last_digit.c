@@ -2,6 +2,7 @@
 /**
  * print_last_digit - imprime el ultimo digito de un numero
  * @n: el numero al que se le imprimira el ultimo numero
+ * Return: last_digit retorna el ultimo digito
  */
 int print_last_digit(int n)
 {
