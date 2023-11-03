@@ -4,18 +4,18 @@
  */
 void times_table(void)
 {
-	int i = '0';
-	int n = '1';
+	int i = 0;
+	int n = 1;
 
-	for (i = '0'; i <= '10'; i++)
+	for (i = 0; i <= 10; i++)
 	{
-	_putchar('0');
+	_putchar(0);
 	_putchar(',');
 	_putchar(' ');
 	}
-	for (n = '1'; n <= '9'; n++)
+	for (n = 1; n <= 9; n++)
 	{
-	_putchar(n * '9');
+	_putchar(n * 9);
 	_putchar(',');
 	_putchar(' ');
 	}
