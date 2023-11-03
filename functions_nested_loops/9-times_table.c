@@ -6,7 +6,7 @@ void times_table(void)
 {
 	int i;
 	int n;
-	int result = i * n;
+	int r = i * n;
 	for (i = 48; i <= 57; i++)
 	{
 	_putchar(48);
@@ -16,7 +16,7 @@ void times_table(void)
 
 	for (n = 49; n <= 57; n++)
 	{
-	_putchar(result);
+	_putchar(r);
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
