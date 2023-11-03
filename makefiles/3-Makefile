@@ -20,6 +20,7 @@ oclean:
 
 fclean: clean
 	$(RM) $(NAME)
+	$(RM) $(OBJ)
 
 re: fclean all
 
