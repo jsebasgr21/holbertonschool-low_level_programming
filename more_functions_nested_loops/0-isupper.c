@@ -15,9 +15,6 @@ int _isupper(int c)
 	}
 	else
 	{
-	_putchar(c);
-	_putchar(':');
-	_putchar(' ');
 	return (0);
 	}
 }
