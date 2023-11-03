@@ -6,6 +6,4 @@ NAME = school
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CC)    -c -o $(OBJ) $(SRC)
-	$(CC)    -c -o $(OBJ) $(SRC)
 	$(CC) $(OBJ) -o $(NAME)
