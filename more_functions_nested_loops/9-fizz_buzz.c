@@ -3,7 +3,7 @@
  * print_diagonal - imprime back slash en la terminal
  * @n: es la cantidad de veces que imprimira el back slash
  */
-void main()
+int main()
 {
 	int i;
 
@@ -26,4 +26,5 @@ void main()
 			printf("%d", i );
 		}
 	}
+	return (0);
 }
