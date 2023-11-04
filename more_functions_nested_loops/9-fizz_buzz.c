@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * print_diagonal - imprime back slash en la terminal
- * @n: es la cantidad de veces que imprimira el back slash
+ * main - imprime del 1 al 100, si es multiplo de
+ * 3 imprime fizz y si es multiplo de 5 imprime buzz
+ * y si es multiplo de ambos imprime FizzBuzz
+ * Return: Always 0
  */
-int main()
+int main(void)
 {
 	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ( i % 3 == 0 && i % 5 != 0)
+		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz");
 		}
-		if ( i % 5 == 0 && i % 3 != 0)
+		if (i % 5 == 0 && i % 3 != 0)
 		{
 			printf("Buzz");
 		}
@@ -23,7 +25,7 @@ int main()
 		}
 		if (i % 3 != 0 && i % 5 != 0)
 		{
-			printf("%d", i );
+			printf("%d", i);
 		}
 		if (i < 100)
 		{
