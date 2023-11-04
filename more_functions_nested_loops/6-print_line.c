@@ -9,6 +9,6 @@ void print_line(int n)
 	}
 	else
 	{
-		return ('_');
+		return (n);
 	}
 }
