@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * print_line - imprime _ la cantidad de veces que sea n
+ * @n: es la cantidad de veces que imprimira el _
  */
 void print_line(int n)
 {
