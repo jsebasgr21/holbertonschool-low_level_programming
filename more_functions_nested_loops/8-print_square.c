@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_diagonal - imprime back slash en la terminal
- * @n: es la cantidad de veces que imprimira el back slash
+ * print_square - imprime un cuadrado sizexsize
+ * @size: es la cantidad de veces que imprimira el # formando un cuadro
  */
 void print_square(int size)
 {
