@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_line - imprime _ la cantidad de veces que sea n
- * @n: es la cantidad de veces que imprimira el _
+ * print_diagonal - imprime back slash en la terminal
+ * @n: es la cantidad de veces que imprimira el back slash
  */
 void print_diagonal(int n)
 {
@@ -16,10 +16,10 @@ void print_diagonal(int n)
 	{
 	for (e = 0; e < n; e++)
 	{
-		for (s = 0; s < e; s++)
-				{
-				_putchar(' ');
-				}
+	for (s = 0; s < e; s++)
+	{
+		_putchar(' ');
+	}
 		_putchar('\\');
 		_putchar('\n');
 	}
