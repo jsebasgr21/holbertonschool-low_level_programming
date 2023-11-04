@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * print_last_digit - imprime el ultimo digito de un numero
- * @n: el numero al que se le imprimira el ultimo numero
- * Return: last_digit retorna el ultimo digito
+ * print_triangle - imprime un triangulo
+ * @size: el tamaño del triangulo
  */
 void print_triangle(int size)
 {
