@@ -3,7 +3,7 @@
  * print_diagonal - imprime back slash en la terminal
  * @n: es la cantidad de veces que imprimira el back slash
  */
-void main(void)
+int main(void)
 {
 	int i;
 
