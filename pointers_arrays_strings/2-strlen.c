@@ -5,6 +5,7 @@
  * @s: la string a analizar la longitud
  * Return: retorna len que contiene la longitud de la string
  * del puntero s
+ */
 int _strlen(char *s)
 {
 	int len;
