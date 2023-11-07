@@ -4,4 +4,5 @@ int _strlen(char *s)
 	int num = *s;
 	
 	printf("%d\n", num);
+	return (0);
 }
