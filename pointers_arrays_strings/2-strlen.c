@@ -4,7 +4,7 @@ int _strlen(char *s)
 	int num;
 
 	num = *s;
-	printf("%d", num);
+	printf("%d", *s);
 
 	return (0);
 }
