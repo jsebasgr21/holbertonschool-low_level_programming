@@ -6,5 +6,5 @@ int _strlen(char *s)
 	num = *s;
 	printf("%d", num);
 
-	return ();
+	return (0);
 }
