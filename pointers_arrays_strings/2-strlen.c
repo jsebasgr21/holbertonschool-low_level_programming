@@ -3,7 +3,7 @@ int _strlen(char *s)
 {
 	int num;
 
-	num = *s
+	num = *s;
 
 	return (num);
 }
