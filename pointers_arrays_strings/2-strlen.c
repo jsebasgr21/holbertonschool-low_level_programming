@@ -5,5 +5,5 @@ int _strlen(char *s)
 
 	num = *s;
 
-	return (num);
+	return ("%d", num);
 }
