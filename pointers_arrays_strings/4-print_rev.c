@@ -5,6 +5,7 @@ void print_rev(char *s)
 {
 	int y = *s;	
 
-	while (y > 0)
-		_putchar(y--);
+	for (; y >= 0; y--)
+	{
+		_putchar(y);
 }
