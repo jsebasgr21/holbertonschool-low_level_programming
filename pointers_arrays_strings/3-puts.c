@@ -3,7 +3,7 @@
  */
 void _puts(char *str)
 {
-	char putsi;
+	int putsi;
 
 	putsi = (str);
 	puts(putsi);
