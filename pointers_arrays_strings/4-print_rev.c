@@ -3,9 +3,8 @@
  */
 void print_rev(char *s)
 {
-	char string;
-	s = string;
+	int y = *s;	
 
-	while (s >= 0)
-		_putchar(s--);
+	while (y > 0)
+		_putchar(y--);
 }
