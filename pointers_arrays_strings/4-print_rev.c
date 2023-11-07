@@ -8,4 +8,5 @@ void print_rev(char *s)
 	for (; y >= 0; y--)
 	{
 		_putchar(y);
+	}
 }
