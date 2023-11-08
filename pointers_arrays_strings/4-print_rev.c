@@ -8,6 +8,8 @@ void print_rev(char *s)
 
 	while (s[i++])
 		largo++;
-	for (i = largo - 1; i >= '0'; i--)
+	for (i = largo - 1; i >= 0; i--)
 		_putchar(s[i]);
+
+	_putchar('\n');
 }
