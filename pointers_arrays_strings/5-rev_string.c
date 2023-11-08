@@ -13,7 +13,7 @@ void rev_string(char *s)
 	int len = 0;
 	int i = len - 1;
 	int aux = 0;
-	
+
 	/* recorremos s para sirtuarnos al final de la string*/
 	while (s[len] != '\0')
 	{
