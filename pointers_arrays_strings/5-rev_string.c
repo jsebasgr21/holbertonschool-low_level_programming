@@ -15,8 +15,7 @@ void rev_string(char *s)
 	}
 	for (; s[patras] >= 0; patras--)
 	{
-		_putchar(*s);
-		_putchar('\n');
 		_putchar(s[patras]);
 	}
+	_putchar('\n');
 }
