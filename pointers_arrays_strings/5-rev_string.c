@@ -7,7 +7,7 @@
 
 void rev_string(char *s)
 {
-/* la variale len sera el tamaño de la string la variable i sera la string a imprimir al revez*/
+/* la variale len sera el tamaño de la string la variable*/
 
 	int len = 0;
 	int i = len - 1;
