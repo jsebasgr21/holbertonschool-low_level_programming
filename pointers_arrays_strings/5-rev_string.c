@@ -11,7 +11,7 @@ void rev_string(char *s)
 	 * la variable i sera la string a imprimir al revez
 	 */
 	int len = 0;
-	int i = len -1;
+	int i = len - 1;
 	int aux = 0;
 	
 	/* recorremos s para sirtuarnos al final de la string*/
