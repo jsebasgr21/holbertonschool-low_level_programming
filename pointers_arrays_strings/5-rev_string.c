@@ -7,15 +7,21 @@
 
 void rev_string(char *s)
 {
-	int patras = 0;
+	/* la variale len sera el tamaño de la string
+	 * la variable i sera la string a imprimir al revez
+	 */
+	int len = 0;
+	int i = 0;
+	
+	/* recorremos s para sirtuarnos al final de la string*/
+	while (s[len] != '\0')
+	{
+		len++;
+	}
 
-	while (s[patras] != '\0')
+	for (; s[len] >= 0; len--)
 	{
-		patras++;
+		i = s[len];
 	}
-	for (; s[patras] >= 0; patras--)
-	{
-		_putchar(s[patras]);
-	}
-	_putchar('\n');
+	_putchar(i);
 }
