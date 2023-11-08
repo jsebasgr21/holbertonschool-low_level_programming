@@ -3,10 +3,11 @@
  */
 void print_rev(char *s)
 {
-	int y = *s;	
+	int largo = 0;
+	int i;
 
-	for (; y >= 0; y--)
-	{
-		_putchar(y);
-	}
+	while (s[largo++])
+		i++;
+	for (largo = i - 1; i >= '0'; i--)
+		_putchar(s[i]);
 }
