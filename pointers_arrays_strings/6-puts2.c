@@ -22,7 +22,7 @@ void puts2(char *str)
 	largo++;
 	}
 /**
- * i es igual a largo - 1 significa que i se posiciona un caracter antes
+ * i = largo - 1 - significa que i se posiciona un caracter antes
  * del caracter \0
  */
 	i = largo - 1;
