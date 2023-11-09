@@ -24,7 +24,7 @@ void puts2(char *str)
  * i es igual a largo - 1 significa que i se posiciona un caracter antes
  * del caracter \0
  */
-	i = largo;
+	i = largo - 1;
 /**
  * la variable o mientras sea menor o igual a la varible i
  * que se encuentra un caracter antes de \0 va a aumentar en
