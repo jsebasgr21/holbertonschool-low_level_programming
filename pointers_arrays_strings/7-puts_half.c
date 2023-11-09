@@ -7,6 +7,7 @@ void puts_half(char *str)
 {
 	char *pc = str;
 	int largo = 0;
+	int i;
 	int aux;
 
 	while (*pc != '\0')
@@ -14,8 +15,8 @@ void puts_half(char *str)
 		pc++;
 		largo++;
 	}
-	aux = largo / 2;
-	for (; aux <= '\0'; aux ++)
+	i = largo / 2;
+	for (aux = i; aux <= '\0'; aux ++)
 	{
 	_putchar(str[aux]);
 	}
