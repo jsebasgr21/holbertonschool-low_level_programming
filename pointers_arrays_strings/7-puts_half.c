@@ -21,7 +21,7 @@ void puts_half(char *str)
 	{
 		aux = ((largo + 1) / 2);
 	}
-	for (i = aux; str[i] != '\0'; i ++)
+	for (i = aux; str[i] != '\0'; i++)
 	{
 	_putchar(str[i]);
 	}
