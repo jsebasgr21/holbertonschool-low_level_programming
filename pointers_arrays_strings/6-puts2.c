@@ -11,9 +11,10 @@ void puts2(char *str)
 	int o;
 
 /**
- * mientras *pc sea diferente a \0 entonces pc++ y la variable
+ * while - mientras *pc sea diferente a \0 entonces pc++ y la variable
  * largo++ tambien aumenten en 1, esto hace que pc y la variable
  * largo esten al final de la string
+ * @'\0': caracter nulo
  */
 	while (*pc != '\0')
 	{
