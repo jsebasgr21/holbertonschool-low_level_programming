@@ -10,6 +10,6 @@ char *_strcpy(char *dest, char *src)
 		dest[aux] = src[aux];
 		aux++;
 	}
-	dest[aux] = '\0';
+	dest[aux++] = '\0';
 	return (dest);
 }
