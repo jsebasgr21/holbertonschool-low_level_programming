@@ -10,8 +10,8 @@ void rev_string(char *s)
 /* la variale len sera el tamaño de la string la variable*/
 
 	int len = 0;
-	int i = len - 1;
-	int aux = 0;
+	int i, j;
+	int aux;
 
 	/* recorremos s para sirtuarnos al final de la string*/
 	while (s[len] != '\0')
@@ -19,10 +19,10 @@ void rev_string(char *s)
 		len++;
 	}
 
-	for (; i < len; i++, len--)
+	for (i = 0, j = len - 1; i < j; i++, j--)
 	{
 		aux = s[i];
-		s[i] = s[len];
-		s[len] = aux;
+		s[i] = s[j];
+		s[j] = aux;
 	}
 }
