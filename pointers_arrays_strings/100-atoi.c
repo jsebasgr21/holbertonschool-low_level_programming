@@ -12,26 +12,22 @@ int _atoi(char *s)
 	int sign = 1;
 	unsigned int n = 0;
 
-	while (s[num] == '\t' || s[num] == '\n' || s[num] == ' ')
+	for (; s[num] != '\0'; num++)
 	{
-		num++;
-	}
-
-	if (s[num] == '-')
-	{
-		sign = -1;
-		num++;
-	}
-	else if (s[num] == '+')
-	{
-		num++;
+		if (s[num] == '\0')
+		{
+			sign = (sign * -1);
+		}
+		else if (s[num] >= '0' && s[num] <= '9')
+		{
+			break;
+		}
 	}
 
 	for (; s[num] >= '0' && s[num] <= '9'; num++)
 	{
-		n = n * 10 + (s[num] - '0');
-		s++;
+		n = (n * 10) + (s[num] - '0');
 	}
 
-	return (int)(n * sign);
+	return (n * sign);
 }
