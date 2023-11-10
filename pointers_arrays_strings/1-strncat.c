@@ -3,7 +3,8 @@
  * _strncat - concatena dos strings
  * @dest: variable puntero
  * @src: variable puntero
- * return: retorna el nuevo valor de dest
+ * @n: el numero de caracteres a concatenar de una string a otra
+ * Return: retorna el nuevo valor de dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
