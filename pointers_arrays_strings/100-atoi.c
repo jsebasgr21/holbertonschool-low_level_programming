@@ -3,6 +3,8 @@
 /**
  * _atoi - convert a string to an integer.
  * @s: la string a ser convertida en integrers
+ * Return: retorna el numero positivo o negativo dependiendo
+ * del signo que contenga sign
  */
 int _atoi(char *s)
 {
@@ -30,5 +32,5 @@ int _atoi(char *s)
 		s++;
 	}
 
-	return(num * sign);
+	return (num * sign);
 }
