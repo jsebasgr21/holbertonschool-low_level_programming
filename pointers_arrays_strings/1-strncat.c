@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * _strncat - concatena dos strings
+ * @dest: variable puntero
+ * @src: variable puntero
+ * return: retorna el nuevo valor de dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
