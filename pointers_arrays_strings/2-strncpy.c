@@ -3,7 +3,7 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char* tmp = dest;
+	char *tmp = dest;
 
 	while (*src && n--)
 	{
