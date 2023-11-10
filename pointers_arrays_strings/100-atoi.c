@@ -6,7 +6,28 @@
  */
 int _atoi(char *s)
 {
-	int num = atoi(s);
+	int num = 0;
+	int sign = 1;
 
-	return(num);
+	while (*s == '\t' || *s == '\n' || *s == ' ')
+	{
+		s++;
+	}
+
+	if (*s == '-')
+	{
+		sign = -1;
+		s++;
+	}
+	else if (*s == '+')
+	{
+		s++;
+	}
+
+	while (*s >= '0' && *s <= '9')
+	{
+		num = num * 10 + (*s++ - '0');
+	}
+
+	return(num * sign);
 }
