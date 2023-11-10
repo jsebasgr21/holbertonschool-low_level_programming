@@ -10,27 +10,28 @@ int _atoi(char *s)
 {
 	int num = 0;
 	int sign = 1;
+	unsigned int n = 0;
 
-	while (*s == '\t' || *s == '\n' || *s == ' ')
+	while (s[num] == '\t' || s[num] == '\n' || s[num] == ' ')
 	{
-		s++;
+		num++;
 	}
 
-	if (*s == '-')
+	if (s[num] == '-')
 	{
 		sign = -1;
-		s++;
+		num++;
 	}
-	else if (*s == '+')
+	else if (s[num] == '+')
 	{
+		num++;
+	}
+
+	for (; s[num] >= '0' && s[num] <= '9'; num++)
+	{
+		n = n * 10 + (s[num] - '0');
 		s++;
 	}
 
-	while (*s >= '0' && *s <= '9')
-	{
-		num = num * 10 + (*s - '0');
-		s++;
-	}
-
-	return (num * sign);
+	return (int)(n * sign);
 }
