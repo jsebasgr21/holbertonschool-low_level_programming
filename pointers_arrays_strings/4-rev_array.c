@@ -9,7 +9,7 @@ void reverse_array(int *a, int n)
 
 	while (i < n)
 	{
-		if (i != '\0')
+		if (i < 0)
 		{
 		printf(", ");
 		}
