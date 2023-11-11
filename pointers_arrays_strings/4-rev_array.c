@@ -3,17 +3,16 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i;
+	int i = 0;
+	int *ad = a;
 
-	i = 0;
-
-	while (i < n)
+	while (ad[i] != '\0')
 	{
-		if (i < 0)
-		{
-		printf(", ");
-		}
-		printf("%d", a[i]);
+		i++;
+	}
+	while (ad[i] >= 0)
+	{
 		i--;
+		a = ad[i];
 	}
 }
