@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _sqrt_recursion - returns the natural square root of a number.
+ * _sqrt - busca si m es mayor o igual a n para buscar raiz de n
  * @m: el numero a multiplicar para buscar la raiz de n
  * @n: el numero a buscar la raiz cuadrada
  * Return: retorna la raiz cuadrada de n
