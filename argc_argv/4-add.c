@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+ * main - adds positive numbers.
+ * @argc: argument counter
+ * @argv: argument vector
+ * Return: return the addition of the arguments
  */
 int main(int argc, char *argv[])
 {
