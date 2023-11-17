@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int iv;
 	int sum = 0;
 
-	for (ic = 1; ic < argc; ic++ )
+	for (ic = 1; ic < argc; ic++)
 	{
 		for (iv = 0; argv[ic][iv] != '\0'; iv++)
 		{
