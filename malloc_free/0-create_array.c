@@ -1,7 +1,10 @@
 #include "main.h"
 /**
- * create_array - creates an array of chars, and initializes it with a specific char.
- *
+ * create_array - creates an array of chars,
+ * and initializes it with a specific char.
+ * @size: size of the array
+ * @c: character
+ * Return: return rt
  */
 char *create_array(unsigned int size, char c)
 {
@@ -12,7 +15,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	
+
 	rt = malloc(sizeof(char) * size);
 	if (rt == NULL)
 	{
