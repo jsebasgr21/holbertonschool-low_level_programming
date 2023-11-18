@@ -9,4 +9,5 @@ int **alloc_grid(int width, int height)
 	int grid[h][w];
 
 	alloc = grid[h][w];
+	return (alloc);
 }
