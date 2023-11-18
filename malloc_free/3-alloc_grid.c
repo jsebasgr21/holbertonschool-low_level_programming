@@ -7,5 +7,6 @@ int **alloc_grid(int width, int height)
 	int w = sizeof(width);
 	int h = sizeof(height);
 	int grid[h][w];
-	return (grid);
+
+	alloc = grid[h][w];
 }
