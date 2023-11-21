@@ -3,7 +3,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *ptr;
+	char *ptr;
 
 	ptr = malloc(sizeof(*ptr) * b);
 	
