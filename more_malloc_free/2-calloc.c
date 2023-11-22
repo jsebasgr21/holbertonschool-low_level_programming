@@ -19,7 +19,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
         ptr[i] = 0;
 
     if (ptr == 0)
-        return(0);
+        {return(0); }
+
+        free (ptr);
 
     return (ptr);
 }
