@@ -17,7 +17,7 @@ return (NULL);
 ptr = malloc(nmemb * size);
 
 if (ptr == NULL)
-return(NULL);
+return (NULL);
 
 ptr2 = ptr;
 
