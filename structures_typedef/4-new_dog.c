@@ -3,35 +3,35 @@
 #include <string.h>
 #include "dog.h"
 /**
- * 
+ * new_dog - Write a function that creates a new dog.
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ * Return: newdog
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-char *name2;
-char *owner2 = strdup(owner);
 dog_t *newdog = (dog_t *)malloc(sizeof(dog_t));
-
-newdog->age = age;
 
 if (newdog == NULL)
 return (NULL);
 
-name2 = malloc(strlen(name) + 1);
+newdog->name = strdup(name);
 
-if (name2 != name){
-return (NULL);
-free (name);
+if (newdog->name == NULL){
 free (newdog);
+return (NULL);
 }
 
-if (owner2 != owner){
-return(NULL);
-free (owner);
-free (owner2);
-}
+newdog->age = age;
 
-strcpy(newdog->name, name2);
-strcpy(newdog->owner, owner2);
+newdog->owner = strdup(owner);
+
+if (newdog->owner == NULL){
+free (newdog->name);
+free (newdog);
+return (NULL);
+}
 
 return (newdog);
 
