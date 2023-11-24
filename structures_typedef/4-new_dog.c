@@ -23,6 +23,7 @@ return (NULL);
 newdog->name = strdup(name);
 
 if (newdog->name == NULL){
+free (newdog->name);
 free (newdog);
 return (NULL);
 }
@@ -33,6 +34,7 @@ newdog->owner = strdup(owner);
 
 if (newdog->owner == NULL){
 free (newdog->name);
+free (newdog->owner);
 free (newdog);
 return (NULL);
 }
