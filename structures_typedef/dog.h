@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * dog - new type struct dog
+ * struct dog - new type struct dog
 */
 struct dog
 {
