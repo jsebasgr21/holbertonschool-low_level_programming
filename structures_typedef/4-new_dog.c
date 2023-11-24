@@ -24,7 +24,7 @@ newdog->name = malloc(sizeof(char) * (name2 + 1));
 
 if (newdog->name == NULL)
 {
-free (newdog);
+free(newdog);
 return (NULL);
 }
 
@@ -32,8 +32,8 @@ newdog->owner = malloc(sizeof(char) * (owner2 + 1));
 
 if (newdog->owner == NULL)
 {
-free (newdog->name);
-free (newdog);
+free(newdog->name);
+free(newdog);
 return (NULL);
 }
 
