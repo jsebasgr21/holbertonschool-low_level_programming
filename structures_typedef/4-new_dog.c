@@ -26,7 +26,6 @@ newdog->owner = strdup(owner);
 if (newdog->name == NULL || newdog->owner == NULL){
 free (newdog->name);
 free (newdog->owner);
-free (newdog);
 return (NULL);
 }
 
