@@ -15,20 +15,23 @@ dog_t *newdog = (dog_t *)malloc(sizeof(dog_t));
 int name2 = strlen(name);
 int owner2 = strlen(owner);
 
-if (newdog == NULL){
+if (newdog == NULL)
+{
 return (NULL);
 }
 
 newdog->name = malloc(sizeof(char) * (name2 + 1));
 
-if (newdog->name == NULL){
+if (newdog->name == NULL)
+{
 free (newdog);
 return (NULL);
 }
 
 newdog->owner = malloc(sizeof(char) * (owner2 + 1));
 
-if (newdog->owner == NULL){
+if (newdog->owner == NULL)
+{
 free (newdog->name);
 free (newdog);
 return (NULL);
