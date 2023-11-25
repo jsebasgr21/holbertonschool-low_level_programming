@@ -12,12 +12,9 @@ unsigned int i;
 
 if (array == NULL && action == NULL)
 {
-
-}
-
 for (i = 0; i < size; i++)
 {
 action(array[i]);
 }
-
+}
 }
