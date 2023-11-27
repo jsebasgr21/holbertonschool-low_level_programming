@@ -42,9 +42,6 @@ return (a * b);
  *@b: The divisor.
  *
  *Return: The result of dividing the first integer by the second.
- *
- *Note: If the divisor is zero, the function prints an error message
- *and exits with code 100.
  */
 int op_div(int a, int b)
 {
@@ -62,9 +59,6 @@ return (a / b);
  *@b: The divisor.
  *
  *Return: The remainder of the division of the first integer by the second.
- *
- *Note: If the divisor is zero, the function prints an error message
- *and exits with code 100.
  */
 int op_mod(int a, int b)
 {
