@@ -2,14 +2,8 @@
 
 /**
  *main - Entry point of the program.
- *@argc: Number of command-line arguments.
- *@argv: Array containing command-line arguments.
- *
- *Description: This program performs mathematical operations based on
- *the command-line arguments. It expects three arguments: an integer,
- *an operator, and another integer. It then performs the specified
- *operation and prints the result.
- *
+ *@argc: argument counter.
+ *@argv: argument vectors.
  *Return: 0 on success, other values on failure.
  */
 
