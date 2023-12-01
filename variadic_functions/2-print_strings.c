@@ -29,6 +29,7 @@ printf("%s", string);
 if (i != n - 1 && separator != NULL)
 printf("%s", separator);
 
+i++;
 }
 
 va_end(args);
