@@ -8,7 +8,6 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-hash_node_t **h_node;
 hash_table_t *h_t = NULL;
 
 if (size == 0)
