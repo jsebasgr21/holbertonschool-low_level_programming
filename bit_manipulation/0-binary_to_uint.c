@@ -9,20 +9,23 @@
 unsigned int binary_to_uint(const char *b)
 {
 
-int convertedNum = 0;
+unsigned int convertedNum = 0;
 
 if (b == NULL)
 {
 return (0);
 }
 
-if (b != '0' || b != '1')
+for (; *b != '\0'; b++)
+{
+if (*b != '0' && *b != '1')
 {
 return (0);
 }
 else
 {
 convertedNum = (convertedNum << 1) | (*b - '0');
+}
 }
 return (convertedNum);
 }
